@@ -1,0 +1,11 @@
+---
+layout: default
+title: Glosario
+---
+
+<dl>
+  {% for term in site.terms %}
+  <dt>{{ term.es }}</dt>
+  <dd lang="en">{{ term.en }}</dd>
+  {% endfor %}
+</dl>

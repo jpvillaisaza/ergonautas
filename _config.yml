@@ -1,2 +1,7 @@
 title: Ergonautas
 description: Programación funcional en español
+
+collections:
+  - terms
+
+permalink: pretty

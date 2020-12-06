@@ -1,0 +1,4 @@
+---
+en: monad
+es: mónada
+---
