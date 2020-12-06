@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}: {{ site.description | downcase }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/ergonautas.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}: {{ site.description | downcase }}</h1>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
