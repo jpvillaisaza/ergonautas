@@ -5,7 +5,9 @@ title: Glosario
 
 <dl>
   {% for term in site.terms %}
-  <dt>{{ term.es }}</dt>
+  {% for esterm in term.es %}
+  <dt>{{ esterm }}</dt>
+  {% endfor %}
   <dd lang="en">{{ term.en }}</dd>
   {% endfor %}
 </dl>

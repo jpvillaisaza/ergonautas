@@ -1,0 +1,4 @@
+---
+en: operator
+es: operador
+---

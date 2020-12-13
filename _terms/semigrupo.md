@@ -1,0 +1,4 @@
+---
+en: semigroup
+es: semigrupo
+---

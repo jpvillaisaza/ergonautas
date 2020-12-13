@@ -1,0 +1,4 @@
+---
+en: monoid
+es: monoide
+---

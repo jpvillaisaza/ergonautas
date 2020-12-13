@@ -1,0 +1,4 @@
+---
+en: polymorphism
+es: poliformismo
+---

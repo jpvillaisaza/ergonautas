@@ -1,0 +1,4 @@
+---
+en: function
+es: función
+---
