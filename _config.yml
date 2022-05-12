@@ -2,6 +2,15 @@ title: Ergonautas
 description: Programación funcional en español
 
 collections:
-  - terms
+- terms
 
 permalink: pretty
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- vendor
+
+include:
+- _pages

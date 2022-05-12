@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /glosario/
+title: Glosario
+---
+
+<dl>
+{%- for term in site.terms %}
+  {%- for esterm in term.es %}
+  <dt>{{ esterm }}</dt>
+  {%- endfor %}
+  <dd lang="en">{{ term.en }}</dd>
+{%- endfor %}
+</dl>
