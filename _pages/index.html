@@ -1,11 +1,12 @@
 ---
 layout: default
+nav: false
 permalink: /
 ---
 
 <ul>
 {%- for page in site.pages %}
-  {%- if page.title %}
+  {%- if page.nav and page.title %}
   <li>
     <a href="{{ page.url}}">
       {{ page.title }}
